@@ -1,14 +1,14 @@
 
-# 🚀 Sustentabilidade por meio redução do consumo energético de aplicações rodando na nuvem AWS
+# Sustentabilidade por meio redução do consumo energético de aplicações rodando na nuvem AWS
 
 Este projeto tem como objetivo avaliar como a utilização de serviços disponibilizados na nuvem AWS podem contribuir positivamente para a sustentabilidade por meio aplicação de conceitos de Green IT.
 
-## 📌 1. Visão Geral do Projeto
+## 1. Visão Geral do Projeto
 
 
-## ⚙️ 2. Instalação e Configuração
+## 2. Instalação e Configuração
 
-### ✔ Pré-requisitos
+### Pré-requisitos
 
 | Ferramenta | Versão recomendada |
 |------------|--------------------|
@@ -24,21 +24,21 @@ Este projeto tem como objetivo avaliar como a utilização de serviços disponib
 | Git | Opcional |
 
 
-## 🧪 3. Implantação
+## 3. Implantação
 
-## 🏗 4. Arquitetura / Estrutura
+## 4. Arquitetura / Estrutura
 
 
-## 📊 5. Testes de carga (k6)
+## 5. Testes de carga (k6)
 
-## 🎯 7. Resultados obtidos
+## 7. Resultados obtidos
 
-## 📝 8. Conclusão do experimento
+## 8. Conclusão do experimento
   
-## 👤 9. Créditos
+## 9. Créditos
 
   - **Aluno:** João Henrique Silva
-  - **Disciplina:** CCOM0004 - AVALIAÇÃO DE DESEMPENHO (2025 .2 - T01)
+  - **Disciplina:** CCOM0031 - REDES DE COMPUTADORES (2025 .2 - T01)
   - **Professor:** Mário Antônio Meireles Teixeira
   - **Instituição:** UFMA — Universidade Federal do Maranhão
 
