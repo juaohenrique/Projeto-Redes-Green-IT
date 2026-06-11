@@ -84,6 +84,14 @@ Consiste em adiar a execução de tarefas que não são de tempo real (backups, 
 B. Deslocamento Espacial (Spatial Shifting)
 Consiste em mover dinamicamente o tráfego e o processamento de dados pela rede para regiões geográficas cuja energia seja mais limpa naquele instante, mesmo que isso custe uma latência ligeiramente maior.
 
+
+## Estudos de Caso
+### Google Cloud Platform (GCP)
+### Microsoft Azure
+### Amazon Web Services (AWS)
+### Oracle Cloud Infrastructure (OCI)
+### DigitalOcean
+
 # Projeto
 ## 1. Instalação e Configuração
 
@@ -131,10 +139,14 @@ Estimativa de Emissão de Carbono (CO2 por mil requisições)
 ## 6. Conclusão
 
 ## Referências
-https://www.vertiv.com/pt-latam/about/news-and-insights/articles/blog-posts/the-search-for-the-sustainability-triangle-pue-cue-and-wue/
 
+https://www.researchgate.net/publication/396527521_The_Green_Cloud_Computing_An_Approach_to_Technological_Sustainability_Case_Study
 https://ric.cps.sp.gov.br/bitstream/123456789/22150/3/informaticanegocios_2023_1_renanbernardomanuquian_greenitpraticasetecnologiassutentavei.pdf
 
+
+https://www.meegle.com/en_us/topics/green-it-strategies/cloud-computing-and-green-it
+https://gartsolutions.com/how-cloud-computing-reduces-carbon-footprint-case-studies/
+https://www.vertiv.com/pt-latam/about/news-and-insights/articles/blog-posts/the-search-for-the-sustainability-triangle-pue-cue-and-wue/
 https://www.techtarget.com/searchcio/definition/green-IT-green-information-technology
   
 ## Créditos
