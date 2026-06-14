@@ -1,95 +1,97 @@
 
-# Sustentabilidade por meio redução do consumo energético de aplicações rodando na nuvem AWS
+# Green IT - Tecnologia da Informação aplicada de forma consciente e sustentável
 
-Este projeto tem como objetivo avaliar como a utilização de serviços disponibilizados na nuvem AWS podem contribuir positivamente para a sustentabilidade por meio aplicação de conceitos de Green IT.
+Este trabalho busca apresentar os principais conceitos e definições relacionados a Green IT, combinado com o levantamento dos principais cases do mercado de nuvem e, ainda, a implemtação prática de projeto que aplica de forma suscinta os conhecimentos adquiridos.
 
 ## Introdução
-Nunca foi tão urgente alinhar tecnologia e sustentabilidade. No centro dessa mudança está o Green IT, ou TI Verde, uma abordagem que transforma o uso da tecnologia em algo mais consciente e menos impactante para o planeta. 
 
-Segundo um estudo da International Energy Agency, centros de dados e dispositivos conectados representam cerca de 1% das emissões globais de CO2.
+A preocupação com a sustentabilidade, há anos, deixou de ser um mero diferencial entre as empresas e passou a ser um pilar estratégico corporativo, sendo a TI uma peça fundamental nesse cenário uma vez que demanda alto consumo energético e gera muito resíduos eletrônicos poluidores. 
 
-Segundo o estudo Digital Economy and Climate Impact, divulgado pela Schneider Electric em 2021, a TI é uma das maiores consumidoras de energia elétrica no mundo, além de revelar que a demanda de eletricidade do setor de
-TI deverá aumentar em quase 50% até 2030. E para suprir a demanda energética, é preciso investir em produção de mais energia — o que, consequentemente, gera mais CO2 que é expelido para a atmosfera.
+Segundo o estudo Digital Economy and Climate Impact, divulgado pela Schneider Electric em 2021, a TI é uma das maiores consumidoras de energia elétrica no mundo, além de revelar que a demanda de eletricidade do setor de TI deverá aumentar em quase 50% até 2030. E para suprir a demanda energética, é preciso investir em produção de mais energia — o que, consequentemente, gera mais CO2 que é expelido para a atmosfera.
 
-Isso envolve desde a escolha de dispositivos energeticamente eficientes até práticas de descarte correto de equipamentos.
+Nesse sentido, Green IT, ou TI Verde, representa um conjunto de práticas que reduzem o impacto da tecnologia no meio-ambiente sem abrir mão da melhoria da eficiência e da redução dos custos, além de promover uma imagem de responsabilidade ambiental para as empresas, ainda que seja motivado pela alta no custo da energia, do alcance de metas ESG mais rigorosas ou da maior transparência exigida por investidores e clientes.
 
-O conceito ganhou força com a crescente preocupação sobre o impacto ambiental das operações empresariais e a necessidade de reduzir as emissões de carbono. 
 
-Seja através de práticas sustentáveis, tecnologias inovadoras ou estratégias eficientes, o Green IT oferece soluções reais para empresas que desejam fazer a diferença. 
+## Definição
 
-Ao adotar o Green IT, as empresas não só diminuem a pegada de carbono, mas também otimizam custos operacionais e promovem uma imagem de responsabilidade ambiental.
+Green IT representa o conjunto de práticas e tecnologias que buscam minimizar o impacto ambiental da TI como um todo, da fabricação e uso até o descarte de equipamentos. Isso inclui otimização do consumo de energia e aumento da vida útil dos equipamentos, migração de workloads para data centers com eficiência energética ou fornecedores que usam fontes renováveis.
 
-Exemplos práticos:
-    - Virtualização de servidores;
-    - Computação em nuvem;
-    - Descarte responsável de equipamentos;
-    - Uso de energia renovável;
-    - Equipamentos com certificação energética.
-
-## Conceitos fundamentais
-
-Definição: trata-se de um conjunto de boas práticas gerenciais e operacionais com foco na sustentabilidade. O objetivo é reeducar as pessoas quanto ao uso sustentável dos recursos tecnológicos. (ITSM)
-
-Green IT, ou Tecnologia da Informação Verde, refere-se ao uso sustentável dos recursos tecnológicos para reduzir impactos no meio ambiente. 
-
-A TI verde se subdivide em:
+### A TI verde se subdivide em:
     
-Green in IT (Verde na TI): Foco na infraestrutura física. Refere-se à eficiência energética de servidores físicos, sistemas de resfriamento de data centers, transição para fontes de energia renovável e reciclagem de lixo eletrônico (e-waste).
+**Green in IT (Verde na TI):** Foco na infraestrutura física. Refere-se à eficiência energética de servidores físicos, sistemas de resfriamento de data centers, transição para fontes de energia renovável e reciclagem de lixo eletrônico (e-waste).
 
-Green by IT (Verde pela TI): Usar a tecnologia para tornar outros setores mais sustentáveis. Exemplos: sistemas de redes inteligentes (smart grids), aplicativos de otimização de rotas logísticas para gastar menos combustível ou videoconferências que evitam viagens aéreas.
+**Green by IT (Verde pela TI):** Usar a tecnologia para tornar outros setores mais sustentáveis. Exemplos: sistemas de redes inteligentes (smart grids), aplicativos de otimização de rotas logísticas para gastar menos combustível ou videoconferências que evitam viagens aéreas.
 
-Green of IT / Green Software (Verde do Software): Prática de projetar, desenvolver e executar aplicações eficientes. É aqui que o seu software se torna um agente ativo, consumindo menos CPU, memória e dados de rede para a mesma tarefa.
-
+**Green of IT / Green Software (Verde do Software):** Prática de projetar, desenvolver e executar aplicações eficientes. É aqui que o seu software se torna um agente ativo, consumindo menos CPU, memória e dados de rede para a mesma tarefa.
 
 
 ## Métricas
-PUE: relação entre energia total do data center e energia consumida pela TI. Quanto mais próximo de 1, melhor.
+- **PUE:** relação entre energia total do data center e energia consumida pela TI. Quanto mais próximo de 1, melhor.
 
-DCiE: inversa do PUE.
+- **DCiE:** inversa do PUE.
 
-WUE: eficiência de uso de água.
+- **WUE:** eficiência de uso de água.
 
-CER: eficiência de resfriamento, padronizada na ISO/IEC 30134-7.
+- **CER:** eficiência de resfriamento, padronizada na ISO/IEC 30134-7.
 
-Utilização real do hardware: CPU, memória, IOPS, throughput, latência.
+- **Utilização real do hardware:** CPU, memória, IOPS, throughput, latência.
 
-Energia por transação/requisição: métrica excelente para software e sistemas.
+- **Energia por transação/requisição:** métrica excelente para software e sistemas.
 
-Desempenho por watt: muito útil para comparar arquiteturas e stacks.
+- **Desempenho por Watt:** muito útil para comparar arquiteturas e stacks.
 
 
 ## Níveis
-Green IT 1.0 (eficiência) × Green IT 2.0 (sustentabilidade holística)
+**Green IT 1.0 (Foco Tático/Eficiência):** Reduzir o consumo de energia da própria infraestrutura de TI (fazer o data center gastar menos, otimizar refrigeração). É o "Verde na TI".
+
+**Green IT 2.0 (Foco Estratégico/Transformacional):** Usar a TI como ferramenta de eco-eficiência para transformar os processos da sociedade 
+e do negócio (reduzir pegada de carbono global, logística verde, eliminação de papel). É o "Verde pela TI".
 
 ## Ambientes
-on-premise tradicional
-virtualização
-HCI
-containers/Kubernetes
-cloud
+**On-Premises Tradicional:** Baixa eficiência. Servidores subutilizados mantidos resfriados 24/7 (PUE alto, próximo de 2.0).
+
+**Virtualização / HCI (Hiperconvergência):** Consolidação de servidores físicos. Menos hardware ligado, melhor aproveitamento de CPU.
+
+**Containers / Kubernetes:** Eliminação do overhead de Sistemas Operacionais redundantes. Máxima densidade de microsserviços por Watt.
+
+**Cloud Computing:** Escala hiper-eficiente. Data centers projetados para operar com PUE próximo a 1.15, alimentados por matrizes de energia 100% renováveis.
 
 
 ## Software Eficiente
-software com menos chamadas inúteis, menos loops custosos, menos I/O excessivo e melhor uso de cache tende a consumir menos energia porque exige menos trabalho da máquina.
+Software com menos chamadas inúteis, menos loops custosos, menos I/O excessivo e melhor uso de cache tende a consumir menos energia porque exige menos trabalho da máquina.
 
 
 ## O Padrão ISO do Green Software: Software Carbon Intensity (SCI)
-O SCI não mede o volume total de carbono emitido (que sempre cresce conforme o número de usuários aumenta), mas sim a taxa de emissão por unidade funcional. A equação do SCI é: XXXXXX
+O SCI não mede o volume total de carbono emitido (que sempre cresce conforme o número de usuários aumenta), mas sim a taxa de emissão por unidade funcional. Portanto, não é uma métrica de volume absoluto, mas de intensidade.
+### A Equação do SCI (Software Carbon Intensity)
+
+$$SCI = \frac{(E \times I) + M}{R}$$
+
+Onde:
+- **E**: Energy consumed by the software system (in kWh).
+- **I**: Location-based carbon intensity of the grid ($gCO_2e/kWh$).
+- **M**: Embodied carbon of the hardware used to run the software.
+- **R**: Functional unit (e.g., per active user, per 1,000 API requests, per transaction).
 
 
-## Estratégias Arquiteturais para Computação Verde (Nuvem)
-A. Deslocamento Temporal (Temporal Shifting)
-Consiste em adiar a execução de tarefas que não são de tempo real (backups, geração de relatórios pesados, processamento de lote/batch) para horários em que a intensidade de carbono da rede elétrica local ($I$) esteja mais baixa.
+## Estratégias Arquiteturais para Computação Verde em Nuvem
+**Deslocamento Temporal (Temporal Shifting):** Consiste em adiar a execução de tarefas que não são de tempo real (backups, geração de relatórios pesados, processamento de lote/batch) para horários em que a intensidade de carbono da rede elétrica local ($I$) esteja mais baixa.
 
-B. Deslocamento Espacial (Spatial Shifting)
-Consiste em mover dinamicamente o tráfego e o processamento de dados pela rede para regiões geográficas cuja energia seja mais limpa naquele instante, mesmo que isso custe uma latência ligeiramente maior.
+**Deslocamento Espacial (Spatial Shifting):** Consiste em mover dinamicamente o tráfego e o processamento de dados pela rede para regiões geográficas cuja energia seja mais limpa naquele instante, mesmo que isso custe uma latência ligeiramente maior.
 
 
 ## Estudos de Caso
 ### Google Cloud Platform (GCP)
+
 ### Microsoft Azure
+
 ### Amazon Web Services (AWS)
+- AWS Sustainability Consol [detalhes](https://aws.amazon.com/pt/sustainability/tools/console/)
+- Customer Carbon Footprint Tool - CCFT [detalhes](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ccft-overview.html)
+- 
+  
 ### Oracle Cloud Infrastructure (OCI)
+
 ### DigitalOcean
 
 # Projeto
