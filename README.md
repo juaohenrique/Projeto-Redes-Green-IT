@@ -27,10 +27,16 @@ Green IT representa o conjunto de práticas e tecnologias que buscam minimizar o
 
 ## Métricas
 - **PUE:** relação entre energia total do data center e energia consumida pela TI. Quanto mais próximo de 1, melhor.
+$$PUE = \frac{\text{Energia Total do Data Center}}{\text{Energia Consumida pelos Equipamentos de TI}}$$
 
-- **DCiE:** inversa do PUE.
+- **CUE** mede a intensidade de carbono direta da infraestrutura.
+$$CUE = \frac{\text{Total de Emissões de } CO_2e \text{ do Data Center (g)}}{\text{Energia Consumida pelos Equipamentos de TI (kWh)}}$$
 
-- **WUE:** eficiência de uso de água.
+- **DCiE:** inversa do PUE, representa a porcentagem da energia que realmente chega ao hardware útil.
+$$DCiE = \frac{1}{PUE} = \frac{\text{Energia Consumida pelos Equipamentos de TI}}{\text{Energia Total do Data Center}} \times 100\%$$
+
+- **WUE:** mede o impacto hídrico causado pelo resfriamento dos servidores
+$$WUE = \frac{\text{Consumo Anual de Água (Litros)}}{\text{Energia Consumida pelos Equipamentos de TI (kWh)}}$$
 
 - **CER:** eficiência de resfriamento, padronizada na ISO/IEC 30134-7.
 
@@ -150,6 +156,7 @@ https://www.meegle.com/en_us/topics/green-it-strategies/cloud-computing-and-gree
 https://gartsolutions.com/how-cloud-computing-reduces-carbon-footprint-case-studies/
 https://www.vertiv.com/pt-latam/about/news-and-insights/articles/blog-posts/the-search-for-the-sustainability-triangle-pue-cue-and-wue/
 https://www.techtarget.com/searchcio/definition/green-IT-green-information-technology
+https://evernex.com/pt-br/guia-de-mercado/green-it/
   
 ## Créditos
 
