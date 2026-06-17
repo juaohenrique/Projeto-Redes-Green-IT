@@ -1,7 +1,7 @@
 
 # Green IT - Tecnologia da Informação aplicada de forma consciente e sustentável
 
-Este trabalho busca apresentar os principais conceitos e definições relacionados a Green IT, combinado com o levantamento dos principais cases do mercado de nuvem e, ainda, a implemtação prática de projeto que aplica de forma suscinta os conhecimentos adquiridos.
+Este trabalho busca apresentar os principais conceitos e definições relacionados a Green IT, combinado com o levantamento dos principais cases do mercado de nuvem e, ainda, a implementação prática de projeto que aplica de forma suscinta os conhecimentos adquiridos.
 
 ## Introdução
 
