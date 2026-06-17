@@ -1,15 +1,15 @@
 
 # Green IT - Tecnologia da Informação aplicada de forma consciente e sustentável
 
-Este trabalho busca apresentar os principais conceitos e definições relacionados a Green IT, combinado com o levantamento dos principais cases do mercado de nuvem e, ainda, a implementação prática de projeto que aplica de forma suscinta os conhecimentos adquiridos.
+Este trabalho busca apresentar os principais conceitos e definições relacionados a Green IT, combinado com o levantamento dos principais cases do mercado de nuvem e, ainda, a implementação prática de projeto que aplica de forma sucinta os conhecimentos adquiridos.
 
 ## Introdução
 
-A preocupação com a sustentabilidade, há anos, deixou de ser um mero diferencial entre as empresas e passou a ser um pilar estratégico corporativo, sendo a TI uma peça fundamental nesse cenário uma vez que demanda alto consumo energético e gera muito resíduos eletrônicos poluidores. 
+A preocupação com a sustentabilidade, há anos, deixou de ser um mero diferencial entre as empresas e passou a ser um pilar estratégico corporativo, sendo a TI uma peça fundamental nesse cenário uma vez que demanda alto consumo energético e gera muitos resíduos eletrônicos poluidores. 
 
 Segundo o estudo Digital Economy and Climate Impact, divulgado pela Schneider Electric em 2021, a TI é uma das maiores consumidoras de energia elétrica no mundo, além de revelar que a demanda de eletricidade do setor de TI deverá aumentar em quase 50% até 2030. E para suprir a demanda energética, é preciso investir em produção de mais energia — o que, consequentemente, gera mais CO2 que é expelido para a atmosfera.
 
-Nesse sentido, Green IT, ou TI Verde, representa um conjunto de práticas que reduzem o impacto da tecnologia no meio-ambiente sem abrir mão da melhoria da eficiência e da redução dos custos, além de promover uma imagem de responsabilidade ambiental para as empresas, ainda que seja motivado pela alta no custo da energia, do alcance de metas ESG mais rigorosas ou da maior transparência exigida por investidores e clientes.
+Nesse sentido, Green IT, ou TI Verde, representa um conjunto de práticas que reduzem o impacto da tecnologia no meio ambiente sem abrir mão da melhoria da eficiência e da redução dos custos, além de promover uma imagem de responsabilidade ambiental para as empresas, ainda que seja motivado pela alta no custo da energia, do alcance de metas ESG mais rigorosas ou da maior transparência exigida por investidores e clientes.
 
 
 ## Definição
@@ -113,7 +113,7 @@ Onde:
 - Foco:
   - Altas taxas de utilização de recursos e processadores customizados (como o AWS Graviton), que entregam melhor desempenho computacional por watt do que os servidores x86 tradicionais.
 - Ferramentas: 
-  - AWS Sustainability Consol [detalhes](https://aws.amazon.com/pt/sustainability/tools/console/)
+  - AWS Sustainability Console [detalhes](https://aws.amazon.com/pt/sustainability/tools/console/)
   - Customer Carbon Footprint Tool - CCFT [detalhes](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ccft-overview.html)
   - AWS Graviton - família de processadores de servidores projetada pela própria Amazon Web Services (AWS). Eles são baseados na arquitetura ARM (em vez da arquitetura tradicional x86) e têm o objetivo de entregar o melhor custo-benefício e eficiência energética para aplicações executadas na nuvem.
   
@@ -131,7 +131,7 @@ Onde:
 - Foco:
   - Pegada ecológica menor devido a operações simplificadas e utilização de créditos de compensação de carbono de terceiros.
 - Ferramentas: 
-  - 
+  - ###
 
 # Projeto
 ## 1. Instalação e Configuração
