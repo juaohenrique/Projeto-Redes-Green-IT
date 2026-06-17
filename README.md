@@ -27,15 +27,19 @@ Green IT representa o conjunto de práticas e tecnologias que buscam minimizar o
 
 ## Métricas
 - **PUE:** relação entre energia total do data center e energia consumida pela TI. Quanto mais próximo de 1, melhor.
+
 $$PUE = \frac{\text{Energia Total do Data Center}}{\text{Energia Consumida pelos Equipamentos de TI}}$$
 
 - **CUE** mede a intensidade de carbono direta da infraestrutura.
+
 $$CUE = \frac{\text{Total de Emissões de } CO_2e \text{ do Data Center (g)}}{\text{Energia Consumida pelos Equipamentos de TI (kWh)}}$$
 
 - **DCiE:** inversa do PUE, representa a porcentagem da energia que realmente chega ao hardware útil.
+
 $$DCiE = \frac{1}{PUE} = \frac{\text{Energia Consumida pelos Equipamentos de TI}}{\text{Energia Total do Data Center}} \times 100\%$$
 
 - **WUE:** mede o impacto hídrico causado pelo resfriamento dos servidores
+
 $$WUE = \frac{\text{Consumo Anual de Água (Litros)}}{\text{Energia Consumida pelos Equipamentos de TI (kWh)}}$$
 
 - **CER:** eficiência de resfriamento, padronizada na ISO/IEC 30134-7.
@@ -88,17 +92,46 @@ Onde:
 
 ## Estudos de Caso
 ### Google Cloud Platform (GCP)
+- Meta verde: 
+  - Pretende operar com energia 100% livre de carbono, 24 horas por dia, 7 dias por semana, até 2030.
+- Foco:
+  - Computação inteligente em carbono (deslocando tarefas pesadas e não urgentes para horários ou locais com maior oferta de energia renovável).
+- Ferramentas: 
+  - Google Cloud Carbon Footprint;
 
 ### Microsoft Azure
+- Meta verde: 
+  - Compromisso de ser carbono negativo até 2030 e remover todas as suas emissões históricas até 2050.
+- Foco:
+  - Economia circular nativa da nuvem, investindo fortemente em reposição de água e operações de data center com zero descarte de resíduos.
+- Ferramentas: 
+  - Microsoft Emissions Impact Dashboard;
 
 ### Amazon Web Services (AWS)
-- AWS Sustainability Consol [detalhes](https://aws.amazon.com/pt/sustainability/tools/console/)
-- Customer Carbon Footprint Tool - CCFT [detalhes](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ccft-overview.html)
-- 
+- Meta verde: 
+  - Compromisso de alcançar 100% de uso de energia renovável em suas operações.
+- Foco:
+  - Altas taxas de utilização de recursos e processadores customizados (como o AWS Graviton), que entregam melhor desempenho computacional por watt do que os servidores x86 tradicionais.
+- Ferramentas: 
+  - AWS Sustainability Consol [detalhes](https://aws.amazon.com/pt/sustainability/tools/console/)
+  - Customer Carbon Footprint Tool - CCFT [detalhes](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ccft-overview.html)
+  - AWS Graviton - família de processadores de servidores projetada pela própria Amazon Web Services (AWS). Eles são baseados na arquitetura ARM (em vez da arquitetura tradicional x86) e têm o objetivo de entregar o melhor custo-benefício e eficiência energética para aplicações executadas na nuvem.
   
 ### Oracle Cloud Infrastructure (OCI)
+- Meta verde: 
+  - Meta de 100% de uso de energia renovável em todos os seus data centers globalmente até 2025.
+- Foco:
+  - Alta consolidação de hardware. A OCI utiliza sistemas de resfriamento altamente eficientes e programas agressivos de reciclagem de servidores (reciclando 99% do hardware aposentado).
+- Ferramentas: 
+  - OCI Carbon Footprint Dashboard.
 
 ### DigitalOcean
+- Meta verde: 
+  - Foca na eficiência dos servidores e em implantações de alta densidade, em vez de grandes suítes de sustentabilidade corporativa.
+- Foco:
+  - Pegada ecológica menor devido a operações simplificadas e utilização de créditos de compensação de carbono de terceiros.
+- Ferramentas: 
+  - 
 
 # Projeto
 ## 1. Instalação e Configuração
@@ -160,7 +193,7 @@ https://evernex.com/pt-br/guia-de-mercado/green-it/
   
 ## Créditos
 
-  - **Alunos:** João Henrique Silva
+  - **Alunos:** João Henrique Silva, Alanna Rocha Monteiro
   - **Disciplina:** CCOM0031 - REDES DE COMPUTADORES (2025 .2 - T01)
   - **Professor:** Mário Antônio Meireles Teixeira
   - **Instituição:** UFMA — Universidade Federal do Maranhão
