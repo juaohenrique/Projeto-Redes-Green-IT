@@ -37,6 +37,32 @@ Green IT aparece também nos Objetivos de Desenvolvimento Sustentáve da ONU, qu
 
 **Green of IT / Green Software (Verde do Software):** Prática de projetar, desenvolver e executar aplicações eficientes. É aqui que o seu software se torna um agente ativo, consumindo menos CPU, memória e dados de rede para a mesma tarefa. Exemplos: Otimização de Algoritmos e Consultas ao Banco de Dados, Estratégias de Cache Agressivas (Redução de I/O), Compactação de Payload e Protocolos de Rede Eficientes.
 
+## Níveis
+**Green IT 1.0 (Foco Tático/Eficiência):** Reduzir o consumo de energia da própria infraestrutura de TI (fazer o data center gastar menos, otimizar refrigeração). É o "Verde na TI".
+
+**Green IT 2.0 (Foco Estratégico/Transformacional):** Usar a TI como ferramenta de eco-eficiência para transformar os processos da sociedade e do negócio (reduzir pegada de carbono global, logística verde, eliminação de papel). É o "Verde pela TI".
+
+## Ambientes
+**On-Premises Tradicional:** 
+- Baixa eficiência. Servidores subutilizados mantidos resfriados 24/7 (PUE alto, próximo de 2.0).
+- Para cada 1W que o servidor gasta, gasta-se outro 1W em refrigeração e perdas elétricas
+
+**Virtualização / HCI (Hiperconvergência):** 
+- Consolidação de servidores físicos. Menos hardware ligado, melhor aproveitamento de CPU.
+
+**Containers / Kubernetes:** Eliminação do overhead de Sistemas Operacionais redundantes. Máxima densidade de microsserviços por Watt.
+
+**Cloud Computing:** 
+- Escala hiper-eficiente. Data centers projetados para operar com PUE próximo a 1.15, alimentados por matrizes de energia 100% renováveis.
+- Os data centers hiperescalares (AWS, Google) operam na casa de 1.1 a 1.2. Só essa diferença de infraestrutura física (Green in IT) já corta o gasto energético pela metade antes mesmo de avaliar o código.
+
+
+## Estratégias Arquiteturais para Computação Verde em Nuvem
+**Deslocamento Temporal (Temporal Shifting):** Consiste em adiar a execução de tarefas que não são de tempo real (backups, geração de relatórios pesados, processamento de lote/batch) para horários em que a intensidade de carbono da rede elétrica local ($I$) esteja mais baixa.
+
+**Deslocamento Espacial (Spatial Shifting):** Consiste em mover dinamicamente o tráfego e o processamento de dados pela rede para regiões geográficas cuja energia seja mais limpa naquele instante, mesmo que isso custe uma latência ligeiramente maior.
+
+
 ## Métricas
 - **PUE:** relação entre energia total do data center e energia consumida pela TI. Quanto mais próximo de 1, melhor.
 
@@ -62,30 +88,9 @@ $$WUE = \frac{\text{Consumo Anual de Água (Litros)}}{\text{Energia Consumida pe
 
 - **Desempenho por Watt:** muito útil para comparar arquiteturas e stacks.
 
-## Níveis
-**Green IT 1.0 (Foco Tático/Eficiência):** Reduzir o consumo de energia da própria infraestrutura de TI (fazer o data center gastar menos, otimizar refrigeração). É o "Verde na TI".
-
-**Green IT 2.0 (Foco Estratégico/Transformacional):** Usar a TI como ferramenta de eco-eficiência para transformar os processos da sociedade e do negócio (reduzir pegada de carbono global, logística verde, eliminação de papel). É o "Verde pela TI".
-
-## Ambientes
-**On-Premises Tradicional:** 
-- Baixa eficiência. Servidores subutilizados mantidos resfriados 24/7 (PUE alto, próximo de 2.0).
-- Para cada 1W que o servidor gasta, gasta-se outro 1W em refrigeração e perdas elétricas
-
-**Virtualização / HCI (Hiperconvergência):** 
-- Consolidação de servidores físicos. Menos hardware ligado, melhor aproveitamento de CPU.
-
-**Containers / Kubernetes:** Eliminação do overhead de Sistemas Operacionais redundantes. Máxima densidade de microsserviços por Watt.
-
-**Cloud Computing:** 
-- Escala hiper-eficiente. Data centers projetados para operar com PUE próximo a 1.15, alimentados por matrizes de energia 100% renováveis.
-- Os data centers hiperescalares (AWS, Google) operam na casa de 1.1 a 1.2. Só essa diferença de infraestrutura física (Green in IT) já corta o gasto energético pela metade antes mesmo de avaliar o código.
-
-## Software Eficiente
-Software com menos chamadas inúteis, menos loops custosos, menos I/O excessivo e melhor uso de cache tende a consumir menos energia porque exige menos trabalho da máquina.
-
-## O Padrão ISO do Green Software: Software Carbon Intensity (SCI)
+- **O Padrão ISO do Green Software: Software Carbon Intensity (SCI)**
 O SCI não mede o volume total de carbono emitido (que sempre cresce conforme o número de usuários aumenta), mas sim a taxa de emissão por unidade funcional. Portanto, não é uma métrica de volume absoluto, mas de intensidade.
+
 ### A Equação do SCI (Software Carbon Intensity)
 
 $$SCI = \frac{(E \times I) + M}{R}$$
@@ -96,10 +101,8 @@ Onde:
 - **M**: Carbono incorporado (Embodied Carbon) do hardware usado para rodar o software (custo ecológico de fabricação e descarte repartido pelo tempo de uso).
 - **R**: Unidade funcional de escala (ex: por usuário ativo, por 1.000 requisições de API).
 
-## Estratégias Arquiteturais para Computação Verde em Nuvem
-**Deslocamento Temporal (Temporal Shifting):** Consiste em adiar a execução de tarefas que não são de tempo real (backups, geração de relatórios pesados, processamento de lote/batch) para horários em que a intensidade de carbono da rede elétrica local ($I$) esteja mais baixa.
-
-**Deslocamento Espacial (Spatial Shifting):** Consiste em mover dinamicamente o tráfego e o processamento de dados pela rede para regiões geográficas cuja energia seja mais limpa naquele instante, mesmo que isso custe uma latência ligeiramente maior.
+## Software Eficiente
+Software com menos chamadas inúteis, menos loops custosos, menos I/O excessivo e melhor uso de cache tende a consumir menos energia porque exige menos trabalho da máquina.
 
 ## Práticas de Mercado
 ### Google Cloud Platform (GCP)
