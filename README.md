@@ -101,7 +101,7 @@ Onde:
 
 **Deslocamento Espacial (Spatial Shifting):** Consiste em mover dinamicamente o tráfego e o processamento de dados pela rede para regiões geográficas cuja energia seja mais limpa naquele instante, mesmo que isso custe uma latência ligeiramente maior.
 
-## Estudos de Caso
+## Práticas de Mercado
 ### Google Cloud Platform (GCP)
 - Meta verde: 
   - Pretende operar com energia 100% livre de carbono, 24 horas por dia, 7 dias por semana, até 2030.
