@@ -107,18 +107,20 @@ Software com menos chamadas inúteis, menos loops custosos, menos I/O excessivo 
 ## Práticas de Mercado
 ### Google Cloud Platform (GCP)
 - Meta verde: 
-  - Pretende operar com energia 100% livre de carbono, 24 horas por dia, 7 dias por semana, até 2030.
+  - Operar com energia 100% livre de carbono (CFE - Carbon-Free Energy) em todas as regiões, 24/7, até 2030.
 - Foco:
-  - Computação inteligente em carbono (deslocando tarefas pesadas e não urgentes para horários ou locais com maior oferta de energia renovável).
+  - Computação Inteligente em Carbono, que usa IA para realizar previsões e fazer Deslocamento Temporal e Espacial de workloads pesados e não urgentes para horários ou locais com maior oferta de energia renovável.
 - Ferramentas: 
   - Google Cloud Carbon Footprint;
+  - Region Picker;
+  
 
 https://www.gstatic.com/bricks/pdf/c2a8e9ed-01b4-442a-94fe-d084fc8f9bbe/Google%20Cloud%20Build%20Software%20Sustainably%202025.pdf
 https://youtu.be/Aso72AHE8Yg?si=U3it-npS_fMRp0Pm
 
 ### Microsoft Azure
 - Meta verde: 
-  - Compromisso de ser carbono negativo até 2030 e remover todas as suas emissões históricas até 2050.
+  - Compromisso de ser carbono negativo até 2030 e remover do planeta até 2050 o equivalente a toda a energia e carbono que a empresa emitiu desde a sua fundação em 1975.
 - Foco:
   - Economia circular nativa da nuvem, investindo fortemente em reposição de água e operações de data center com zero descarte de resíduos.
 - Ferramentas: 
@@ -127,20 +129,19 @@ https://datacenters.microsoft.com/globe/powering-sustainable-transformation/
 
 ### Amazon Web Services (AWS)
 - Meta verde: 
-  - Compromisso de alcançar 100% de uso de energia renovável em suas operações.
+  - Compromisso de alcançar 100% de uso de energia renovável em suas operações até o final desta década.
 - Foco:
-  - Altas taxas de utilização de recursos e processadores customizados (como o AWS Graviton), que entregam melhor desempenho computacional por watt do que os servidores x86 tradicionais.
+  - Altas taxas de utilização de recursos e processadores AWS Graviton, que entregam 40% mais desempenho por Watt do que os servidores x86 tradicionais.
 - Ferramentas: 
   - AWS Sustainability Console [detalhes](https://aws.amazon.com/pt/sustainability/tools/console/)
   - Customer Carbon Footprint Tool - CCFT [detalhes](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ccft-overview.html)
   - AWS Graviton - família de processadores de servidores projetada pela própria Amazon Web Services (AWS). Eles são baseados na arquitetura ARM (em vez da arquitetura tradicional x86) e têm o objetivo de entregar o melhor custo-benefício e eficiência energética para aplicações executadas na nuvem.
   
 ### Oracle Cloud Infrastructure (OCI)
-- "Oracle Cloud Infrastructure (OCI) é uma solução de nuvem verde de alto desempenho com forte foco na sustentabilidade. Um ambiente de computação de alta densidade alimentado por recursos renováveis, o OCI se alinha com a economia circular para oferecer suporte a uma solução de nuvem limpa. Um conjunto de ferramentas tecnológicas avançadas em OCI também permite aos clientes desenvolver soluções inovadoras e reduzir o seu impacto ambiental."
 - Meta verde: 
   - Meta de 100% de uso de energia renovável em todos os seus data centers globalmente até 2025.
 - Foco:
-  - Alta consolidação de hardware. A OCI utiliza sistemas de resfriamento altamente eficientes e programas agressivos de reciclagem de servidores (reciclando 99% do hardware aposentado).
+  - Alta consolidação de hardware. A OCI utiliza sistemas de resfriamento altamente eficientes e programas agressivos de reciclagem de servidores (até 99% do hardware desativado).
 - Ferramentas: 
   - OCI Carbon Footprint Dashboard.
 
